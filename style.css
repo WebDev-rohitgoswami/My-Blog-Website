@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section css */
+
+.header-section h1 {
+  text-align: center;
+  background-color: rgb(194, 219, 219);
+  padding: 10px;
+}
+
+/* Navbar css */
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  padding: 0px 200px;
+  border: 2px solid grey;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  font-size: 22px;
+  list-style: none;
+  margin: 0px 25px;
+}
+
+.navbar ul > :nth-child(1) > a {
+  color: red;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+/* Hero Section css */
+#hero-section {
+  background-image: url(./Images/Banner_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+}
+
+/* Abou-us css */
+#about-section h2 {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline red;
+  padding: 30px;
+}
+#about-section .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 200px
+}
+#about-section h3 {
+  text-align: justify;
+  padding-left: 50px;
+
+  line-height: 25px;
+}
+
+/* Blog Post css */
+#blog-post h2 {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline red;
+  padding: 30px;
+}
+
+#blog-post .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 200px
+}
+#blog-post .row .post{
+  padding: 0px 30px
+}
+/* Video Section css */
+
+#video-section h2 {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline red;
+   padding: 30px; 
+}
+
+#video-section .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 200px
+}
+#video-section h3 {
+  text-align: justify;
+  padding-right: 50px;
+
+  line-height: 25px;
+}
+
+/* Form css */
+#form-section{
+  padding-bottom: 50px;
+}
+#form-section h2 {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline red;
+  padding: 50px 30px;
+}
+#form-section .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#form-section h3{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  
+}
+#form-section input{
+  font-size: 25px;
+}
+#form-section #button{
+  border-radius: 50px;
+  border: transparent;
+  padding: 5px;
+  background-color:#0096d7;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color:cyan
+
+}
+#form-section label{
+  font-size: 20px;
+  font-weight: bold;
+}
+#form-section form{
+ 
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  
+}
+
+/* Footer css */
+
+#footer h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
